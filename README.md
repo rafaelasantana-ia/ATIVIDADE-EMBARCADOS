@@ -7,8 +7,9 @@ Atividade em C usando ESP-IDF e simulacao Wokwi no VS Code.
 - Compilacao concluida em 22/09/2026 com ESP-IDF 6.1.0, alvo ESP32-S3.
 - Firmware gerado: `build/temperatura_dht22.bin` (176800 bytes).
 - Saida real da compilacao salva em `evidencias/compilacao.txt`.
-- Ao iniciar o Wokwi no VS Code, apareceu `Missing Wokwi license key!`.
-  A simulacao e as leituras ainda nao foram validadas; falta ativar a licenca.
+- Licenca Wokwi ativada e simulacao executada no VS Code em 22/09/2026.
+- Monitor serial validado com leituras sucessivas de 25.0 C e 60.0% de umidade.
+  Captura real do circuito, licenca ativa e monitor: `evidencias/04-leituras.png`.
 - Repositorio Git local criado; publicacao remota depende do login GitHub.
 
 ## Circuito
