@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Projeto ESP32-S3 - Temperatura e umidade",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-s3-devkitc-1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht", "top": -10, "left": 240, "attrs": { "temperature": "25", "humidity": "60" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": -60, "left": 170, "attrs": { "value": "10000" } }
+  ],
+  "connections": [
+    [ "esp:3V3.1", "dht:VCC", "red", [ "h-35", "v-80", "h300" ] ],
+    [ "esp:GND.1", "dht:GND", "black", [ "h-25", "v100", "h310" ] ],
+    [ "esp:4", "dht:SDA", "green", [ "h-15", "v-40", "h260" ] ],
+    [ "r1:1", "dht:VCC", "red", [] ],
+    [ "r1:2", "dht:SDA", "green", [] ],
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf", "convertEol": true }
+}
