@@ -10,7 +10,6 @@ Atividade em C usando ESP-IDF e simulacao Wokwi no VS Code.
 - Licenca Wokwi ativada e simulacao executada no VS Code em 22/09/2026.
 - Monitor serial validado com leituras sucessivas de 25.0 C e 60.0% de umidade.
   Captura real do circuito, licenca ativa e monitor: `evidencias/04-leituras.png`.
-- Repositorio Git local criado; publicacao remota depende do login GitHub.
 
 ## Circuito
 
@@ -66,27 +65,6 @@ Leitura 1 | Temperatura: 25.0 C | Umidade: 60.0 %
 
 Nao e necessario conectar uma placa fisica ou selecionar uma porta COM
 para simular. Use o monitor do Wokwi.
-
-## Evidencias da entrega
-
-Salve capturas reais em `evidencias/` com Windows + Shift + S:
-
-- `01-configuracao.png`: configuracao ESP-IDF e confirmacao da licenca Wokwi
-  (oculte qualquer chave de licenca).
-- `02-circuito.png`: ESP32-S3, DHT22 e ligacoes no Wokwi.
-- `03-compilacao.png`: terminal exibindo `Project build complete`.
-- `04-leituras.png`: circuito e monitor serial com varias leituras.
-
-Se nao concluir todas as etapas, entregue a captura da ultima etapa
-realmente finalizada. Nao use o exemplo de texto acima como evidencia.
-
-## Repositorio GitHub
-
-Depois de autenticar com `gh auth login`, publique este repositorio pelo
-controle de codigo-fonte do VS Code ou pelo GitHub CLI. Revise os arquivos
-antes de publicar. `build/`, dependencias baixadas e ajustes locais sao
-ignorados pelo Git. Inclua as capturas reais e envie o link do repositorio
-como entrega. Nenhuma senha ou chave Wokwi deve entrar no repositorio.
 
 ## Referencias
 
