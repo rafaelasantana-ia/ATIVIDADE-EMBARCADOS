@@ -47,5 +47,10 @@ Esta versão trata da parte obrigatória. Não implementa outro sensor nem um no
 
 ## Validação realizada
 
-Compilação concluída com ESP-IDF 6.1.0, esp-tflite-micro 1.3.5 e esp-nn 1.4.1. Firmware gerado em `build/`. Execução e captura do Wokwi ainda pendentes.
+Compilação concluída com ESP-IDF 6.1.0, esp-tflite-micro 1.3.5 e esp-nn 1.4.1. Firmware gerado em `build/`. Captura da execucao no Wokwi apresentada abaixo.
 
+## Print da simulacao no Wokwi
+
+![ESP32-S3 no Wokwi com resultados do Hello World no terminal](evidencias/wokwi-hello-world.png)
+
+Captura fornecida por Rafaela Santana, com a placa ESP32-S3 e a saida do programa no terminal. O ciclo exibido registrou **MAE = 1,10258**, **RMSE = 1,23629** e **erro maximo = 1,98905**. Esses valores documentam a execucao, mas indicam erro elevado na aproximacao do seno.

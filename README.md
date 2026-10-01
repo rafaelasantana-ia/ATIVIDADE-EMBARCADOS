@@ -75,3 +75,9 @@ para simular. Use o monitor do Wokwi.
 ## Atividade 4/6 - IA embarcada e modelos compactos
 
 [Hello World com TensorFlow Lite Micro](atividade-4-6/README.md), de Rafaela Santana. Inclui codigo, relatorio e pacote ZIP com firmware compilado.
+
+### Hello World no Wokwi - atividade 4/6
+
+![Hello World no ESP32-S3: placa e resultados no terminal](atividade-4-6/evidencias/wokwi-hello-world.png)
+
+[Detalhes e resultados da simulacao](atividade-4-6/README.md#print-da-simulacao-no-wokwi).
