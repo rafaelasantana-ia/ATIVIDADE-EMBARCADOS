@@ -71,3 +71,7 @@ para simular. Use o monitor do Wokwi.
 - Componente: https://components.espressif.com/components/esp-idf-lib/dht/versions/1.2.0/readme
 - Licenca e extensao: https://docs.wokwi.com/vscode/getting-started
 - Firmware ESP-IDF no Wokwi: https://docs.wokwi.com/vscode/project-config
+
+## Atividade 4/6 - IA embarcada e modelos compactos
+
+[Hello World com TensorFlow Lite Micro](atividade-4-6/README.md), de Rafaela Santana. Inclui codigo, relatorio e pacote ZIP com firmware compilado.

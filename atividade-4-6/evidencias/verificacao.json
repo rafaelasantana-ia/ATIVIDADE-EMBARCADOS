@@ -1,0 +1,11 @@
+{
+  "modelo_bytes": 3344,
+  "sha256": "bcb76335130b7d0d067e09da926379cf986823d490453fdb0a9e2d27e49a3207",
+  "modelo_c_igual_ao_tflite": true,
+  "wokwi_executado": false,
+  "captura_wokwi": "pendente",
+  "extra_implementado": false,
+  "compilacao": "sucesso",
+  "esp_idf": "6.1.0",
+  "firmware_bytes": 207104
+}
